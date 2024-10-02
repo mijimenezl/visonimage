@@ -19,6 +19,7 @@ os.environ['OPENAI_API_KEY'] = ke
 
 
 image = Image.open('analisisimg.jpg')
+st.image(image, width=500)
 
 # Retrieve the OpenAI API Key from secrets
 api_key = os.environ['OPENAI_API_KEY']
